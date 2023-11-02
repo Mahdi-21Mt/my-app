@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+}
+
+.Container {
+    margin-top: 66px;
+}
+
+.Toolbar {
+    background-color: rgb(39, 18, 111);
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.Toolbar_Navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.Navigation_Items ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px
+}
+
+.Navigation_Items ul li {
+    list-style: none;
+}
+
+.Navigation_Items ul li a {
+    color: #6e6ec2;
+    text-decoration: none;
+}
+
+.Navigation_Items ul li a:hover {
+    color: white;
+}
+
+
+
+
+.SingIn button {
+    background-color: #2222c0; 
+    color: white; 
+    border-radius: 20px; 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: flex; 
+    font-size: 16px; 
+    margin: 5px 5px; 
+    cursor: pointer; 
+}
+
+
+.berger{
+    color: rgb(77, 89, 96);
+    visibility:  hidden  ;
+}
+
+@media(max-width:600px) {
+
+    .Navigation_Items{
+        display: none;
+
+    }
+    .berger{
+        visibility: visible;
+
+    }
+}
+/* .berger{
+} */
